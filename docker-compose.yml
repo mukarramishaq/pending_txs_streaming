@@ -1,0 +1,13 @@
+version: '3.0'
+services: 
+    pending_txss:
+        image: pending_txss:01
+        build: ./
+        env_file: .env
+        restart: unless-stopped
+        volumes: 
+        - .:/app
+        - logvolumeptxss01:/var/log
+        network_mode: "host"
+volumes: 
+    logvolumeptxss01:
