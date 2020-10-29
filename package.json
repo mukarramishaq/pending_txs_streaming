@@ -1,0 +1,24 @@
+{
+  "name": "pending_txs_streaming",
+  "version": "1.0.0",
+  "description": "This project constantly fetches the pending transactions of Ethereum and pushed them to the db.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mukarramishaq/pending_txs_streaming.git"
+  },
+  "author": "Mukarram Ishaq",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mukarramishaq/pending_txs_streaming/issues"
+  },
+  "homepage": "https://github.com/mukarramishaq/pending_txs_streaming#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "pg": "^8.4.2",
+    "web3": "^1.3.0"
+  }
+}
